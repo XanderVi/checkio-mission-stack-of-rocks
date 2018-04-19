@@ -1,0 +1,46 @@
+<!-- Describe task in general -->
+
+<p>
+    You have a few rocks with masses m1, m2, ..., mn. Your task is to divide this rocks into 2 stacks in such way that the mass difference between 2 stacks will be minimal. And then return the difference.
+</p>
+
+
+<!--<p style="text-align: center;">
+    <img  title="Stack of rocks" src="{{MEDIA}}drawing.png" alt="example">
+</p> -->
+
+<!-- Explain input and output values -->
+<p>
+    <strong>Input: </strong> List of the rockses masses.
+</p>
+
+<p>
+    <strong>Output: </strong> The minimal mass difference.
+</p>
+
+
+<!-- Put some usage examples -->
+<div class="for_info_only">
+<p>
+<strong>Example:</strong>
+</p>
+{% if interpreter.slug == "js-node" %}
+<pre class="brush: javascript">rocks([5, 8, 13, 27, 14]) == 3</pre>
+{% else %}
+<pre class="brush: python">rocks([5, 8, 13, 27, 14]) == 3</pre>
+{% endif %}
+</div>
+
+<!-- Here you can explain how it can be used in development and what is usage of this. -->
+<!-- The section is optional -->
+<p class="for_info_only">
+    <strong>How it is used: </strong>
+    For sorting different objects in the optimal way (for shipping, storaging etc.).
+</p>
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<p><strong>Precondition</strong>:<br>
+    2 <= the amount of the rocks <= 100<br>
+    1 <= mass of the rock <= 100 000
+</p>

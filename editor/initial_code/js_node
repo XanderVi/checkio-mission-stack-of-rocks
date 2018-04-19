@@ -1,0 +1,17 @@
+"use strict";
+
+function rocks(mass) {
+    // your code here
+    return mass;
+}
+
+var assert = require('assert');
+if (!global.is_checking) {
+    console.log('Example:')
+    console.log(rocks([5, 8, 13, 27, 14]))
+
+    // These "asserts" are used for self-checking and not for an auto-testing
+    assert.equal(rocks([5, 8, 13, 27, 14]), 3)
+    assert.equal(rocks([1, 2, 3, 4, 100000]), 99990)
+    console.log("Coding complete? Click 'Check' to earn cool rewards!");
+}

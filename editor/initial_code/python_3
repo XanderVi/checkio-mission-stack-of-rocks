@@ -1,0 +1,12 @@
+def rocks(mass):
+    #replace this for solution
+    return mass
+
+if __name__ == '__main__':
+    print("Example:")
+    print(rocks([5, 8, 13, 27, 14]))
+
+    #These "asserts" using only for self-checking and not necessary for auto-testing
+    assert rocks([5, 8, 13, 27, 14]) == 3
+    assert rocks([1, 2, 3, 4, 100000]) == 99990
+    print("Coding complete? Click 'Check' to earn cool rewards!")
